@@ -1,0 +1,31 @@
+{
+  "name": "otel-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/core": "^0.20.0",
+    "@opentelemetry/exporter-collector": "^0.20.0",
+    "@opentelemetry/instrumentation": "^0.20.0",
+    "@opentelemetry/instrumentation-express": "^0.20.0",
+    "@opentelemetry/instrumentation-http": "^0.20.0",
+    "@opentelemetry/node": "^0.20.0",
+    "axios": "^0.21.1",
+    "dd-trace": "^0.35.0",
+    "express": "^4.17.1",
+    "int64-buffer": "^1.0.1",
+    "opentelemetry-exporter-datadog": "^0.2.0",
+    "opentelemetry-instrumentation-express": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/dd-trace": "^0.9.0",
+    "@types/node": "^15.12.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  }
+}
