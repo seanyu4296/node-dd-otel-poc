@@ -22,7 +22,7 @@ function isValidTraceId(traceId: string): boolean {
 function isValidSpanId(spanId: string): boolean {
   return VALID_SPANID_REGEX.test(spanId) && !INVALID_ID_REGEX.test(spanId);
 }
-
+// BASIS: https://github.com/DataDog/dd-opentelemetry-exporter-js/blob/master/src/datadogPropagator.ts
 /**
  * Propagator for the Datadog HTTP header format.
  * Based on: https://github.com/DataDog/dd-trace-js/blob/master/packages/dd-trace/src/opentracing/propagation/text_map.js
